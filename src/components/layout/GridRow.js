@@ -20,7 +20,7 @@ export default function NestedGrid() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div>
       <Grid container spacing={1}>
         <Grid container item xs={12} spacing={3}>
         <Grid item xs={4}  >

@@ -8,7 +8,8 @@ const IndexPage = () => {
     <Layout>
       <Hero
         title="STICKIN'"
-        content="game description game description game description game description"
+        content="2D adventure game. 
+        Move, stick, attack and reach the reach the ultimate goal!."
         illustration={HeroIllustration}
       />
     </Layout>

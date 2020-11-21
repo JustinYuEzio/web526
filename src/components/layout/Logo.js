@@ -2,8 +2,9 @@ import React from 'react';
 
 const Logo = () => {
   return (
-    <svg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg' xmlnsXlink='http://www.w3.org/1999/xlink'>
+    <svg width='32' height='32' viewBox='0 0 32 32'>
       <defs>
+        
         <linearGradient x1='50%' y1='0%' x2='50%' y2='100%' id='logo-b'>
           <stop stopColor='#A8A3F6' offset='0%' />
           <stop stopColor='#DAD8FF' offset='100%' />

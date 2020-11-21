@@ -3,9 +3,9 @@ import React, { Component }  from 'react';
 
 const Person = (props) => {
     return <div> 
-        <img src={props.pic} alt="" style={{height: '50%', width: '50%'}}/>
-        <h6>my name is {props.name}</h6>
-        <h6>my linkedin is {props.linkedin}</h6>
+        <img src={props.pic} alt="" style={{height: '30%', width: '30%'}}/>
+        <h7>my name is {props.name}</h7>
+        <h7>my linkedin is {props.linkedin}</h7>
     </div>
 };
 
