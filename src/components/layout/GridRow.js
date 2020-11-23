@@ -3,8 +3,12 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Person from './Person';
-import pic1 from '../../assets/1.jpg';
-import pic2 from '../../assets/1.jpg';
+import Jia from '../../assets/Jia.jpg';
+import Yu from '../../assets/Yu.jpg';
+import Zhu from '../../assets/Zhu.jpg';
+import Lei from '../../assets/Lei.png';
+import Yang from '../../assets/Yang.jpg';
+import Gan from '../../assets/Gan.jpg';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -21,30 +25,29 @@ export default function NestedGrid() {
 
   return (
     <div>
-      <Grid container spacing={1}>
-        <Grid container item xs={12} spacing={3}>
+      <Grid container spacing={10}>
+        <Grid container item xs={12} spacing={5}>
         <Grid item xs={4}  >
-          <Paper className={classes.paper}><Person linkedin="123" name="beautiful girl" pic={pic1}/></Paper>
+          <Paper className={classes.paper}><Person linkedin="https://www.linkedin.com/in/bingxin-gan/" name="Bingxin Gan" pic={Gan}/></Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper}><Person linkedin="123" name="beautiful girl" pic={pic2}/></Paper>
+          <Paper className={classes.paper}><Person linkedin="https://www.linkedin.com/in/xuan-winnie-zhu/" name="Xuan Zhu" pic={Zhu}/></Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper}><Person/></Paper>
+          <Paper className={classes.paper}><Person linkedin="https://www.linkedin.com/in/hengyiyu-usc/" name="Hengyi Yu" pic={Yu}/></Paper>
         </Grid>
         </Grid>
-        <Grid container item xs={12} spacing={3}>
+        <Grid container item xs={12} spacing={8}>
         <Grid item xs={4}  >
-          <Paper className={classes.paper}><Person/></Paper>
+          <Paper className={classes.paper}><Person linkedin="https://www.linkedin.com/in/ruoxi-jia/" name="Ruoxi Jia" pic={Jia}/></Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper}><Person/></Paper>
+          <Paper className={classes.paper}><Person linkedin="https://www.linkedin.com/in/tianmu-lei-208449170/" name="Tianmu Lei" pic={Lei}/></Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper}><Person/></Paper>
+          <Paper className={classes.paper}><Person linkedin="https://www.linkedin.com/in/ming-yang-1b7131163/" name="Ming Yang" pic={Yang}/></Paper>
         </Grid>
         </Grid>
-
       </Grid>
     </div>
   );

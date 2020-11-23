@@ -1,9 +1,7 @@
 import React from 'react';
 import Layout from '../layouts/index';
 import NestedGrid from '../components/layout/GridRow';
-import Person from '../components/layout/Person';
-import pic1 from '../assets/1.jpg';
-import Grid from '@material-ui/core/Grid';
+import Texty from 'rc-texty';
 const ContactPage = () => {
   return (
     <Layout>
@@ -14,13 +12,22 @@ const ContactPage = () => {
             <div className="entry-content">
               <div className="container-sm">
                 <header className="entry-header">
-                  <h1 className="entry-title">Contact</h1>
+                  <Texty className="entry-title" style={{color: "grey", fontSize: "25px"}}>Contact</Texty>
                 </header>
-                <NestedGrid/>
+                <div style = {{marginTop: "50px"}}>
+                  <Texty >Game Desiner: Bingxin Gan</Texty> <Texty style={{marginLeft: "120px", marginTop: "25px" }}>Game Desiner: Xuan Zhu</Texty>
+                </div>
+                <div style = {{marginTop: "50px"}}>
+                  <Texty >Game Desiner: Tianmu Lei</Texty> <Texty style={{marginLeft: "120px", marginTop: "25px" }}>Game Desiner: Ruoxi Jia</Texty>
+                </div>
+                <div style = {{marginTop: "50px"}}>
+                  <Texty >Game Desiner: Ming Yang</Texty> <Texty style={{marginLeft: "120px", marginTop: "25px" }}>Game Desiner: Hengyi Yu</Texty>
+                </div>
               </div>
             </div>
             
-            <div className="entry-media">
+            <div className="entry-media" style = {{marginTop: "100px"}}>
+            <NestedGrid   />
             </div>
             
           </div>

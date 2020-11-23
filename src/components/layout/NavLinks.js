@@ -7,7 +7,6 @@ export default (props) => {
     { text: "Contact", href: "/contact" },
     { text: "About Us", href: "/about" },
     { text: "Characters", href: "/faqs" },
-    { text: "Support", href: "/support" },
   ];
 
   const classNames = classnames(
@@ -19,7 +18,7 @@ export default (props) => {
     <ul className={classNames}>
       {links.map((link, index) => (
         <li key={index}>
-          <NavLink to={link.href} activeClassName="is-active">{link.text}</NavLink>
+          <NavLink to={link.href} activeClassName="is-active" style={{fontSize: '22px'}}>{link.text}</NavLink>
         </li>
       ))}
     </ul>

@@ -22,7 +22,7 @@ class Hero extends Component {
                 <p className="hero-paragraph is-revealing">{content}</p>
               </div>
 
-              <NewsletterForm className="hero-form" submit="Download now" />
+              <NewsletterForm className="hero-form" submit="Watch Video Now" />
             </div>
 
             <div className="hero-illustration">

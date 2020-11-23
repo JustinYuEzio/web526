@@ -1,6 +1,8 @@
 import React from 'react';
 import Layout from '../layouts/index';
-import pic1 from '../assets/1.jpg';
+import gameScene from '../assets/gameScene.png';
+import gameScene2 from '../assets/gameScene2.png';
+import Texty from 'rc-texty';
 const AboutPage = () => {
   return (
     <Layout>
@@ -8,28 +10,29 @@ const AboutPage = () => {
         <div className="container">
           <div className="entry-inner">
             <div className="entry-content">
-              <div className="container-sm">
+              <div className="container-sm" style={{marginTop: "-150px"}}>
                 <header className="entry-header">
-                  <h1 className="entry-title">About</h1>
+                  <h1 className="entry-title" >Story</h1>
                 </header>
 
                 <div className="entry-body">
-                  <p>
-                   GAME DESCRIPTION
-                </p>
-                  <p>
-                  GAME DESCRIPTION
-                </p>
+                  <Texty >
+                  The main character(player) can attack and stick to enemies and move with them
+                </Texty>
+                  
                   <hr />
-                  <p>GAME DESCRIPTION</p>
+                  <Texty >
+                  Different stickiness (i.e. length of sticking time) on different materials
+                  </Texty>
                   <hr />
-                  <p>GAME DESCRIPTION</p>
+                  <a href="https://docs.google.com/document/d/1RQV6TejfEK11e6y62U3X38J2acVeeiYPv4rg0pWO0ms/edit#"> Link to GDD</a>
                 </div>
               </div>
             </div>
-            <div className="entry-media">
-              <img src={pic1} alt="" />
+            <div className="entry-media" style={{marginLeft: "0px"}}>
+              <img src={gameScene} alt="" />
             </div>
+            
           </div>
         </div>
       </article>

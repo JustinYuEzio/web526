@@ -15,9 +15,9 @@ class Header extends Component {
           <div className="site-header-large-bg"><span></span></div>
           <div className="site-header-inner">
             <div className="brand header-brand">
-              <h1 className="m-0">
+              <h1 className="m-0" viewBox='0 0 32 32'>
                 <Link to="/">
-                  <Logo /> {this.props.title}
+                  <Logo/> {this.props.title}
                 </Link>
               </h1>
             </div>
