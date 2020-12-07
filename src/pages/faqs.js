@@ -33,18 +33,18 @@ const FaqsPage = () => {
               
             </div>
             
-            <Grid container spacing={10} style = {{backgroundColor: "Aquamarine", marginLeft: "30px", height: "589px", borderRadius: "25px"}}>
-            <QueueAnim duration="1000">
-              <Grid item xs = {6} key = "demo1">
+            <Grid container spacing={10} style = {{backgroundColor: "Aquamarine", marginLeft: "50px", height: "489px", borderRadius: "25px"}}>
+            <QueueAnim duration="1000" style ={{marginLeft: "50px"}}>
+              <Grid item xs = {7} key = "demo1">
               <Character pic = {bubblegum} des = "BubbleGum"/>
               </Grid>
-              <Grid item xs = {6} key = "demo2">
+              <Grid item xs = {7} key = "demo2">
               <Character pic = {ant} des = "Ant"/>
               </Grid>
-              <Grid item xs = {6} key = "demo3">
+              <Grid item xs = {7} key = "demo3">
               <Character pic = {mouse} des = "Mouse"/>
               </Grid>
-              <Grid item xs = {6} key = "demo4">
+              <Grid item xs = {7} key = "demo4">
               <Character pic = {crockroach} des = "Cockroach"/>
               </Grid>
               </QueueAnim>

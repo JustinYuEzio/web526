@@ -1,9 +1,9 @@
-import React, { Component }  from 'react';
+import React from 'react';
 // import '../styles/Contact.css';
 
 const Character = (props) => {
     return <div> 
-        <img src={props.pic} alt="" style= {{width: "60%", height: "60%"}}/>
+        <img src={props.pic} alt="" style= {{width: "50%", height: "50%", borderRadius: "55%"}}/>
         <span style={{fontSize: "17px"}}> {props.des} </span>
     </div>
 };

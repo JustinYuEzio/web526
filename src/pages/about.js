@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../layouts/index';
 import gameScene from '../assets/gameScene.png';
-import gameScene2 from '../assets/gameScene2.png';
 import Texty from 'rc-texty';
 const AboutPage = () => {
   return (
