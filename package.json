@@ -1,7 +1,6 @@
 {
-  "name": "holly_react",
+  "name": "csci_526",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://lukemcdonald.github.io/holly-react",
   "scripts": {
     "build-css": "node-sass-chokidar src/assets/css/scss/style.scss -o src/assets/css",
