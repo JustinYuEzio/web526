@@ -1,7 +1,7 @@
 {
   "name": "csci_526",
   "version": "0.1.0",
-  "homepage": "https://lukemcdonald.github.io/holly-react",
+  "homepage": "https://justinyuezio.github.io/web526/",
   "scripts": {
     "build-css": "node-sass-chokidar src/assets/css/scss/style.scss -o src/assets/css",
     "build-js": "react-scripts build",
