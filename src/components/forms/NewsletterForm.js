@@ -15,10 +15,22 @@ class NewsletterForm extends Component {
 
     return (
       <form className={classNames}>
+
         <div className="control">
-          <button className="button button-primary button-block button-shadow" type="submit">{submit}</button>
+        <button
+          type="button"
+          className="button button-primary button-block button-shadow"
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href='https://www.youtube.com/watch?v=X_Czo6_lbJ8&feature=youtu.be';
+            }}
+      > {submit}</button>
+          
         </div>
+        
+        
       </form>
+      
     )
   }
 }
